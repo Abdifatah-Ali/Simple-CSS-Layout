@@ -106,6 +106,7 @@ nav li a:hover{
 
 nav li a:focus{
   color: rgb(9, 231, 9);
+  outline: none;
 }
 
 .header-section{
