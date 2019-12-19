@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+html, body{
+  height: 100%;
+  font-family: 'Open Sans';
+}
+
+h1{
+  font-size: 2.8rem;
+}
+
+.main-title{
+  font-size: 3.6rem;
+  padding: 15rem 0 1rem 0;
+  color: white;
+  text-shadow: 3px 3px 10px black;
+  text-transform: uppercase;
+}
+
+h3{
+  font-size: 2rem;
+  color: white;
+  text-shadow: 3px 3px 10px black;
+  padding-top: 0.5rem;
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 3.6rem;
+  padding: 5rem 0;
+}
+
+
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 2.4rem;
+}
+
+button{
+  font-size: 1.8rem;
+  background: rgb(65, 65, 117);
+  border: none;
+  border-radius: 0.3rem;
+  color: white;
+}
+
+.btn-1{
+  margin: 3rem;
+  cursor: pointer;
+  padding: 1rem 2.5rem;
+}
+
+.btn-2{
+  cursor: pointer;
+  padding: 1rem 2.5rem;
+}
+
+
+.btn-2:hover,.btn-1:hover{
+  background: red;
+}
+
+.btn-2:focus, .btn-1:focus{
+  outline: none;
+  background: rgb(9, 231, 9);
+}
+
+nav{
+  background-color: rgb(65, 65, 117);
+  padding: 2rem 6rem;
+  position: fixed;
+  width: 100%;
+}
+
+nav ul{
+  float: right;
+  list-style-type: none;
+}
+
+nav #logo{
+  float: left;
+  color: white;
+}
+
+.clear{
+  clear: both;
+}
+
+nav li{
+  display: inline;
+  margin: 0 2rem;
+}
+
+nav li a:hover{
+  color:red;
+}
+
+nav li a:focus{
+  color: rgb(9, 231, 9);
+}
+
+.header-section{
+  height: 60%;
+  background-image: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)),url('image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  background-color: #e8e8e8;
+}
+
+.form-section{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+form label, form input,
+form textarea, form .btn-2 {
+  display: block;
+  margin: auto;
+}
+
+form .btn-2{
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.form-title{
+  margin-bottom: -2rem;
+}
+
+form label,
+form input,
+form textarea{
+  margin-top: 1rem;
+  width: 50%;
+  font-size: 1.8rem;
+}
+
+input[type="text"]{
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+input[type="text"]:focus{
+  outline: none;
+}
+
+form textarea{
+  border: none;
+  border-radius: 0.5rem;
+}
+
+form textarea:focus{
+  outline: none;
+}
+
+footer{
+  background-color: rgb(65, 65, 117);
+  height: 5rem;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 1.2rem 0;
+  font-size: 1.2rem;
+}
+
+
+
